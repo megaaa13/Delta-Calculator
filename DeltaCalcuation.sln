@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29230.47
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DeltaCalcuation", "DeltaCalcuation\DeltaCalcuation.csproj", "{69321600-113E-4619-9116-FC26469AF7F6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{69321600-113E-4619-9116-FC26469AF7F6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{69321600-113E-4619-9116-FC26469AF7F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{69321600-113E-4619-9116-FC26469AF7F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{69321600-113E-4619-9116-FC26469AF7F6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {951DF1F8-943B-4BD7-9F6E-46793F9C5C14}
+	EndGlobalSection
+EndGlobal

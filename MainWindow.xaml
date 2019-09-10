@@ -1,0 +1,19 @@
+﻿<Window x:Class="DeltaCalcuation.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:DeltaCalcuation"
+        mc:Ignorable="d"
+        Title="Calculator" ResizeMode="NoResize" Height="350" Width="630">
+    <Grid Background="#FF0FFA3C">
+        <Label Content="x²" BorderThickness="1" BorderBrush="Black" HorizontalAlignment="Left" Height="45" Margin="170,79,0,0" VerticalAlignment="Top" Width="45" FontSize="30"/>
+        <TextBox x:Name="First" HorizontalAlignment="Left" Height="45" Margin="40,79,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="125" FontSize="30"/>
+        <TextBox x:Name="Second" HorizontalAlignment="Left" Height="45" Margin="220,79,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="125" FontSize="30"/>
+        <Label Content="x" BorderThickness="1" BorderBrush="Black" HorizontalAlignment="Left" Height="45" Margin="350,79,0,0" VerticalAlignment="Top" Width="40" FontSize="30"/>
+        <TextBox x:Name="Third" HorizontalAlignment="Left" Height="45" Margin="395,79,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="125" FontSize="30"/>
+        <Button Content="Calculate" HorizontalAlignment="Left" Margin="485,0,0,0" VerticalAlignment="Center" Height="32" Width="115" FontSize="20" Click="Button_Click"/>
+        <Label x:Name="Output" BorderBrush="Black" BorderThickness="1" Visibility="Hidden" Content="" HorizontalAlignment="Left" Margin="30,181,0,0" VerticalAlignment="Top" Height="auto" Width="auto" FontSize="18"/>
+
+    </Grid>
+</Window>
