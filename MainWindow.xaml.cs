@@ -81,7 +81,7 @@ namespace DeltaCalcuation
                 }
                 else if (delta < 0)
                 {
-                    Output.Content = $"Delta = {delta}\nPas de solutions";
+                    Output.Content = $"Delta = {delta}\nPas de solutions dans l'ensemble R";
                 }
 
             }
